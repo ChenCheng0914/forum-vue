@@ -45,10 +45,6 @@ module.exports = {
         options: vueLoaderConfig
       },
       {
-        test: /\.css$/,
-        loader: "style-loader!css-loader!postcss-loader"
-      },
-      {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test')]
